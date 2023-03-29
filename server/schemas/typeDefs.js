@@ -19,12 +19,12 @@ const typeDefs = gpl`
     }
     
     input savedBook {
-        description: String!
+        bookId: String!
         authors: [String]
         description: String
         title: String!
         image: String
-        Link: String
+        link: String
     }
 
     typeAuth {
