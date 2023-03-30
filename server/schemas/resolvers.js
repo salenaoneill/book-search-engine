@@ -65,5 +65,7 @@ const resolvers = {
             };
             throw new AuthenticationError('Log in to delte books')
         }
-    }
-}
+    },
+};
+
+module.exports = resolvers;
